@@ -1,4 +1,6 @@
-
+*{
+    border: 1px red solid;
+}
 
 body{
     margin: 0;
@@ -75,9 +77,9 @@ body{
     margin-bottom: 0;
 }
 
-.botao{
-    background-color: lightblue;
-    border-radius: 10px;
+.botao{ 
+    background-color: cornflowerblue;
+    border-radius: 4px;
     width: 20%;
     padding: 5px;
     margin-top: 5;
@@ -152,10 +154,45 @@ body{
 
 .paragrafo3{
     font-size: 36px;
-    color: #1f2937;
-    font-style: light italic;}
+    color: gray;
+    font-style: light italic;
 
-.subparagrafo{
-    height: bold;
 }
 
+.subparagrafo3{
+    height: bold;
+    text-align: right;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.recblue{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    padding-right: 700px;
+    background-color: cornflowerblue;
+}
+
+.titulo3{
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.paragrafo4{    
+    margin-top: 0;
+}
+
+.botao2 {
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    width: 20%;
+    margin-left: auto; 
+    padding: 5px;
+}
