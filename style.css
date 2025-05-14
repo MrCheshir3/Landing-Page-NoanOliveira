@@ -174,19 +174,33 @@ body{
 
 .recblue{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
     border-radius: 4px;
-    padding-right: 700px;
+    padding-right:70px;
+    gap: 20px;
     background-color: cornflowerblue;
+    margin: 30px auto;
+    
+}
+
+.coisas{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .titulo3{
     font-weight: 900;
     margin-bottom: 0;
+    font-size: 25px;
 }
 
 .paragrafo4{    
     margin-top: 0;
+    font-size: 18px;
 }
 
 .botao2 {
